@@ -117,7 +117,7 @@ for i in range(0, len(clean_headlines)):
   for j in range(0, len(models)):
     # Flag any labels with a confidence score < 60%
     if (float(response_data[i][j][1]) < 0.6):
-      response_data[i][j][1] += " - BELOW THRESHOLD"
+      response_data[i][j][0] += " - BELOW THRESHOLD"
 
 for i in range(0, len(clean_headlines)):
   print("Headline Passed: " + clean_headlines[i])
