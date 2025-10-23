@@ -16,13 +16,13 @@ This script goes through Financial News Headlines and classifies them into "nega
 
 ## Example Output for One Headline
 
-Headline Passed: blackrock pulling bitcoin whales wall street orbit
-Llama 3.3 70B Label: positive
-Llama 3.3 70B Confidence Score: 0.70
-Llama 3.1 8B Label: negative
-Llama 3.1 8B Confidence Score: 0.85
-DeepSeek R1 Label: positive
-DeepSeek R1 Confidence Score: 0.85
+- Headline Passed: blackrock pulling bitcoin whales wall street orbit
+- Llama 3.3 70B Label: positive
+- Llama 3.3 70B Confidence Score: 0.70
+- Llama 3.1 8B Label: negative
+- Llama 3.1 8B Confidence Score: 0.85
+- DeepSeek R1 Label: positive
+- DeepSeek R1 Confidence Score: 0.85
 
 # Future Extensions
 
